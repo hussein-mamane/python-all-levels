@@ -1,0 +1,17 @@
+[
+  {
+    "codename": "007",
+    "identity": {
+      "first_name": "James",
+      "last_name": "Bond"
+    }
+  },
+  {
+    "codename": "forty_seven",
+    "identity": {
+      "barcode": 640509040147,
+      "experiment": "Ortmeyer",
+      "origin": "romania"
+    }
+  }
+]
