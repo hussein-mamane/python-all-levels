@@ -1,4 +1,4 @@
-# Copied from HackerRank before filling the code
+# Question Copied from HackerRank, Unsolved
 # !/bin/python3
 
 import math

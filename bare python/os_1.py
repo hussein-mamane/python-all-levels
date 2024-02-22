@@ -1,4 +1,6 @@
 import os
+
+
 # os.mkdir("Hello")
 # os.rmdir("Hello")
 # os.unlink("text.txt")  # delete
@@ -8,7 +10,7 @@ import os
 # rmdir;unlink;listdir()
 
 # os.walk(".")
-for folders, subfolders, files in os.walk("./Hello/Hey"):
+for folders, subfolders, files in os.walk("./Hello"):
     print("----Currently----")
     print("folders:\n", folders)
     print("subfolders:\n", subfolders)
@@ -16,3 +18,4 @@ for folders, subfolders, files in os.walk("./Hello/Hey"):
 # myfiles = [(folders, subfolders, files)
 #            for folders, subfolders, files in os.walk(".")]
 # print(myfiles)
+# os.path can accept pathlib.Path objectss
