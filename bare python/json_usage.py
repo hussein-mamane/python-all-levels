@@ -1,5 +1,5 @@
 import json
-# dictionarues
+# dictionaries
 bond = {
     "identity": {
         "first_name": "James",

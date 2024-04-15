@@ -3,19 +3,19 @@ import logging
 
 app = Flask(__name__)
 
-# Configure custom logging
+# custom logging
 logging.basicConfig(filename='request.log', level=logging.INFO,
                     format='%(asctime)s %(levelname)s: %(message)s')
 
-# Endpoint for handling GET requests
+
 @app.route('/', methods=['GET'])
 def index():
-    # Log the incoming request
+    # log the incoming request
     log_request(request)
-    # Your endpoint logic goes here
     return 'Hello, World!'
 
-# Function to log incoming requests
+
+# function to log incoming requests
 def log_request(req):
     log_info = {
         'method': req.method,
@@ -25,6 +25,6 @@ def log_request(req):
     }
     logging.info(log_info)
 
+
 if __name__ == '__main__':
     app.run(debug=True)
-

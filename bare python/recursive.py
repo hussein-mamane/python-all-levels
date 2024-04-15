@@ -8,5 +8,7 @@ def recursive_function(number):
         # Call the function recursively
         recursive_function(number)
 
+
 # Example usage
 recursive_function(5)
+
